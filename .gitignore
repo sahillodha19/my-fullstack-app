@@ -1,0 +1,25 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build outputs
+frontend/build/
+backend/dist/
+
+# Local env files
+.env
+.env.local
+frontend/.env
+frontend/.env.local
+backend/.env
+backend/.env.local
+
+# IDE stuff
+.vscode/
+.DS_Store
+.idea/
+
+# Logs
+logs/
+*.log
