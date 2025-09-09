@@ -24,7 +24,7 @@ jobs:
           mkdir -p ../deployment/backend
           cp -r * ../deployment/backend/
       - name: Upload Backend Deployment
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: backend-deployment
           path: ../deployment/backend
@@ -47,7 +47,7 @@ jobs:
           mkdir -p ../deployment/frontend
           cp -r build/* ../deployment/frontend/
       - name: Upload Frontend Deployment
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: frontend-deployment
           path: ../deployment/frontend
